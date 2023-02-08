@@ -106,7 +106,13 @@ class CELanguage:
 
     def returnValueOf(this,Key:str)->str:
         """
-        returnValueOf(Key:str)->str\n
+        `returnValueOf(Key:str)->str`\n
+        # INPUT
+        Key:str\n
+        # OUTPUT
+        str\n
+
+        # DESCRIPTION
         Input key.Output value\n
         If the function fails to find the input key from the built-in dictionary, \n
         an error message will be output on the console and the key will be returned intact\n

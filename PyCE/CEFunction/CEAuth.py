@@ -1,5 +1,4 @@
 from socket import *
-import time
 from PyCE.CEFunction.CESettings import *
 
 class CEClient:
